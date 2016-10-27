@@ -5,13 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Research</title>
+  <title>Getting Software Help from Katy</title>
     <meta name="viewport" content="width=device-width">
   <meta name="description" content="Website for the Advanced Reactors and Fuel Cycles group">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link rel="stylesheet" href="/style.css">
-  <link rel="canonical" href="http://arfc.github.io/research/">
+  <link rel="canonical" href="http://arfc.github.io/manual/guides/katy/codereq">
   <link rel="alternate" type="application/rss+xml" title="ARFC" href="http://arfc.github.io/feed.xml">
   <link rel="shortcut icon" href="http://arfc.github.io/favicon.ico" />
     <!-- Custom Fonts -->
@@ -177,57 +177,97 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <!-- Research -->
-    <section id="research" class="">
+        <!-- Manual -->
+    <section id="title" class="">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Research</h2>
-                    <h3 class="section-subheading text-muted">We use modeling and simulation to understand and improve the safety and sustainability of advanced nuclear reactor designs and fuel cycle strategies.</h3>
+                    <h2 class="section-heading">Getting Software Help from Katy</h2>
+                    <h3 class="section-subheading text-muted">You have a bug. I am not your only hope.</h3>
                 </div>
             </div>
         </div>
 
-        
         <div class="container">
-            <div class="row project">
-                <div class="col-md-4">
-                        <img src="/img/research/pres.png" class="img-responsive" alt="Presentations">
+            <div class="row">
+                <div class="col-md-3">
                 </div>
-                <div class="col-lg-8">
-                        <h4>Presentations</h4>
-                        <p class="text-muted">We present our work in many venues.</p>
-                        <p><i class="fa fa-code"></i> <a href="/research/presentations">research/presentations</a></p>
+                <div class="col-md-6">
+                        <p><img src="https://pbs.twimg.com/media/CfFPuvoWwAALmcC.jpg" alt="Googling the Error Message" title="The most important fake book of our time." width="270px" />
+<img src="https://pbs.twimg.com/media/CfSQdwUW8AErog1.jpg:large" alt="Trying Stuff Until It Works" title="Another important fake book on persistence." width="270px" /></p>
+
+<h1 id="google-it">Google it</h1>
+
+<p>Please don’t come to me with a question that can be solved by a Google search 
+of the error. Especially if you are a Millenial from the U.S., Google really 
+should be in your blood by now. For better google skills, consider 
+<a href="http://www.powersearchingwithgoogle.com/course/aps/skills">powering up your search tactics</a>.</p>
+
+<p>Once you google it, of course, try the things you found on google.</p>
+
+<h1 id="stack-overflow">Stack Overflow</h1>
+
+<p>If Google isn’t sufficiently refined, or if your code issue isn’t extremely 
+urgent, consider asking your question on the largest programming bug forum in<br />
+the solar system… <a href="http://stackoverflow.com/">Stack Overflow</a>. Be forewarned: the SO community 
+is not always friendly or well-moderated for snark. That said, you can definitely improve your odds of kind 
+answers by following <a href="http://stackoverflow.com/help/how-to-ask">these tips on asking a question 
+well.</a>.</p>
+
+<h1 id="check-your-environment">Check your environment</h1>
+
+<p>There are a lot of ways that your programming environment can make things fail.</p>
+
+<p>Execute the following commands, and ask yourself whether these values could 
+explain your issues:</p>
+
+<ul>
+  <li>echo $PATH</li>
+  <li>echo $PYTHONPATH</li>
+  <li>echo $LD_LIBRARY_PATH</li>
+  <li>echo $DYLD_FALLBACK_LIBRARY_PATH</li>
+  <li>which ‘insert your program here’</li>
+  <li>which python</li>
+  <li>which gcc</li>
+</ul>
+
+<p>If you don’t know how to interperet these runes, google around to find the 
+meaning of these environment variables. Or, read the first chapter of <a href="http://physics.codes">the 
+book</a>.</p>
+
+<h1 id="debuggers-and-profilers">Debuggers and Profilers</h1>
+
+<p>Try to debug with an interactive debugger or find memory errors with a 
+profiler.  There is a section on debugging and profiling in <a href="http://physics.codes">the 
+book</a>.</p>
+
+<h1 id="minimal-working-example">Minimal Working Example</h1>
+
+<p>To get the most out of your Stack Overflow question or your meeting with me, 
+you will need to formulate a <a href="http://stackoverflow.com/help/mcve">Minimal Working 
+Example.</a></p>
+
+<p>Yes, sometimes a minimal working example is hard to create. If that’s the case, 
+I understand. However, you should still do what you can to document what you 
+are trying to do, how you got where you are, how you tried to fix it. I will 
+need this information to help you.</p>
+
+<h1 id="contact-me">Contact me</h1>
+
+<p>If you have tried <em>everything</em> above and nothing has been clarified, then 
+should you email me.  The email should include your minimal working example or 
+your detailed documentation of the problem (above). I may need a few days to 
+look it over (so you may as well also add it to Stack Overflow in case they’re 
+faster than me.) If I can’t help you fix it by email, I’ll let you know we 
+should meet. If we need to meet, <a href="/manual/guides/katy/meeting">schedule a 
+meeting.</a></p>
+
+
+                </div>
+                <div class="col-md-3">
                 </div>
             </div>
         </div>
-        
-        <div class="container">
-            <div class="row project">
-                <div class="col-md-4">
-                        <img src="/img/research/pubs.png" class="img-responsive" alt="Publications">
-                </div>
-                <div class="col-lg-8">
-                        <h4>Publications</h4>
-                        <p class="text-muted">Discover and download our books, journal articles, and conference papers here.</p>
-                        <p><i class="fa fa-code"></i> <a href="/research/publications">research/publications</a></p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="container">
-            <div class="row project">
-                <div class="col-md-4">
-                        <img src="/img/research/zen.png" class="img-responsive" alt="Software">
-                </div>
-                <div class="col-lg-8">
-                        <h4>Software</h4>
-                        <p class="text-muted">ARFC has a strong focus on creating high quality scientific software. Discover it here.</p>
-                        <p><i class="fa fa-code"></i> <a href="/research/software">research/software</a></p>
-                </div>
-            </div>
-        </div>
-        
     </div>
     </section>
     
